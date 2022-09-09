@@ -1,0 +1,95 @@
+
+:root {
+    --main-color : rgb(8, 8, 8) ;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+/* background-color: black; */
+   width: 100%;
+   min-height: 100vh;
+   background-image: url(../img/neda-astani-KWTkd7mHqKE-unsplash.jpg);
+   background-size: cover;
+ 
+   
+}
+.main-header{
+    text-align: center;
+}
+.main-header h1{
+    color: var(--main-color);
+}
+.main-header input {
+    max-width: 50%;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.discreption{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid ;
+    border-color: var(--main-color);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.discreption h2 {
+    border: inherit;
+    min-width:  20%;
+    margin: 5px;
+    padding: 7px;
+    border-radius: inherit;
+    transition: .5s;
+}
+.discreption h2:hover {
+    transform: scale(1.1);
+    background-color: rgba(128, 128, 128, 0.384);
+}
+.submit {
+    font-size: 2rem;
+    margin:2rem;
+}
+.expect{
+    margin: 2rem;
+    text-align: center;
+    color: var(--main-color);
+}
+
+.forecast{
+   width: 100%; 
+   bottom: 20rem;
+}
+.cards{
+    flex-wrap: wrap;
+}
+.card-forecast{
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.253);
+    padding: 5px;
+    margin: 2rem;
+   
+    bottom: 20rem;
+    text-align: center;
+    min-width: 15rem;
+    transition: .5s;
+    border-radius: 10px;
+}
+
+.card-forecast:hover{
+    
+    transform: scale(1.1);
+    background-color: rgba(128, 128, 128, 0.384);
+
+}
+
+@media screen and ( max-width : 600px) {
+ .last {
+    background-color: black;
+    color: white;
+ }
+
+}
