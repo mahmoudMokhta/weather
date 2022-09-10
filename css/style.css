@@ -86,6 +86,14 @@ header{
     background-color: rgba(255, 255, 255, 0.918);
 
 }
+.fa-temperature-high:before {
+   
+    color: #e12f2fbf;
+}
+.fa-temperature-low:before {
+    
+    color: #6262dd;
+}
 
 @media screen and ( max-width : 600px) {
  .last {
