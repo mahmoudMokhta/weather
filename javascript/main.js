@@ -79,8 +79,8 @@ mysubmit.addEventListener('click',()=>{
         contantCard = `<div class="card-forecast">
         <h3>${day} </h3>
        <p>${comment} </p>
-       <p>${max_temp} <i class="fa-sharp fa-solid fa-c"></i> </p>
-       <p>${min_temp} <i class="fa-sharp fa-solid fa-c"></i> </p>
+       <p><i class="fa-solid fa-temperature-high"></i>  ${max_temp} <i class="fa-sharp fa-solid fa-c"></i> </p>
+       <p><i class="fa-solid fa-temperature-low"></i>  ${min_temp} <i class="fa-sharp fa-solid fa-c"></i> </p>
        </div>`
 
        cards.innerHTML += contantCard
