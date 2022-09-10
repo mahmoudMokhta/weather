@@ -45,10 +45,11 @@ header{
     padding: 7px;
     border-radius: inherit;
     transition: .5s;
+    background-color: rgba(255, 255, 255, 0.315);
 }
 .discreption h2:hover {
     transform: scale(1.1);
-    background-color: rgba(128, 128, 128, 0.384);
+    background-color: rgba(255, 255, 255, 0.911);
 }
 .submit {
     font-size: 2rem;
@@ -71,7 +72,7 @@ header{
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.253);
     padding: 5px;
     margin: 2rem;
-   
+   background-color: rgba(255, 255, 255, 0.562);
     bottom: 20rem;
     text-align: center;
     min-width: 15rem;
@@ -82,7 +83,7 @@ header{
 .card-forecast:hover{
     
     transform: scale(1.1);
-    background-color: rgba(128, 128, 128, 0.384);
+    background-color: rgba(255, 255, 255, 0.918);
 
 }
 
